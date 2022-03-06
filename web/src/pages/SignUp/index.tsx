@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useCallback, useContext, useRef } from 'react';
 import { FiArrowLeft, FiMail, FiLock, FiUser } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
@@ -13,10 +13,10 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 import  { Container, Content, Background } from './styles';
+import { AuthContext } from '../../context/AuthContext';
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
-
   const handleSubmit = useCallback(async (data: object) => {
     try {
       formRef.current?.setErrors({});
@@ -32,6 +32,7 @@ const SignUp: React.FC = () => {
       await schema.validate(data, {
         abortEarly: false
       });
+
     } catch (error) {
       if (error instanceof ValidationError) {
         formRef.current?.setErrors(getValidationErrors(error));
