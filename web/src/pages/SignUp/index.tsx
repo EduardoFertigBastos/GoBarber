@@ -13,7 +13,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 import  { Container, Content, Background } from './styles';
-import { AuthContext } from '../../context/AuthContext';
+import { AuthContext } from '../../hooks/AuthContext';
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
