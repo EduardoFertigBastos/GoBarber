@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="GoBarber" title="#delicinha" src="../.github/gobarber.png" width="250px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#rocket-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#collision-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#zap-rodando-o-projeto">Rodando o Projeto</a>
+</p>
 
-## Available Scripts
+<h2>
+<strong>Frontend</strong> da aplicação GoBarber.
+</h2>
 
-In the project directory, you can run:
+## 🚀 Sobre
 
-### `npm start`
+A versão web do projeto GoBarber representa a visão da barbearia, ou seja, todas funcionalidades presentes na versão web são para administradores. As funcionalidades para o usuário serão dispostas no aplicativo mobile.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :collision: Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Criar e gerenciar horários;
+- Criar e gerenciar barbeiros;
 
-### `npm test`
+## 🎨 Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Ainda será inserido.
+```
 
-### `npm run build`
+## :rocket: Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactnative.dev/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+\* Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
-### `npm run eject`
+## :zap: Rodando o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pré-requisitos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+É necessário que o **/backend** da aplicação esteja rodando no endereço http://localhost:3333
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Em um terminal, entrar na raiz do projeto **/frontend** e rodar o comando:
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Ainda na raiz do projeto, rodar o comando:
+$ yarn start
+```
 
-## Learn More
+Feito isso, acessar o endereço http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
