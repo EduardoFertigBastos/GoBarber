@@ -54,5 +54,4 @@ $ yarn install && yarn start
 
 Feito isso o serviço de frontend estará funcionando na porta :3000 consultando as rotas que o serviço do backend disponibilizou pra gente. 
 
-🔥
-
+Todos os commits foram realizados no mesmo dia, pois criei um novo repositório e deletei o antigo.
